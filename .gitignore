@@ -1,0 +1,9 @@
+# Ignore Terraform-specific files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+
+# Ignore provider binaries
+*.terraform-provider-*
